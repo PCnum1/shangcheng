@@ -109,7 +109,7 @@ export default {
     margin: 0 0.4rem 0.16rem 0.4rem;
     background: #f9f9f9;
     border-radius: .06rem;
-    border: .06rem solid $content-bgColor;
+    border: .01rem solid $content-bgColor;
     &__content {
       margin-top: .12rem;
       border: none;
@@ -118,9 +118,9 @@ export default {
       line-height: 0.22rem;
       background: none;
       font-size: 0.16rem;
-      color: $content-bgColor;
+      color: $content-fontcolor;
       &::placeholder {
-        color: $content-bgColor;
+        color: $content-fontcolor;
       }
     }
   }

@@ -108,9 +108,9 @@ export default {
       line-height: 0.22rem;
       background: none;
       font-size: 0.16rem;
-      color: $content-bgColor;
+      color: $content-fontcolor;
       &::placeholder {
-        color: $content-bgColor;
+        color: $content-fontcolor;
       }
     }
   }
