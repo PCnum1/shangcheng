@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <img
-      src="http://www.dell-lee.com/imgs/vue3/user.png"
+      src="../../assets/login.jpg"
       class="wrapper__img"
     />
     <div class="wrapper__input">

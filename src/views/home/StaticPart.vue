@@ -13,13 +13,13 @@
   <div class="banner">
     <img
       class="banner__img"
-      src="http://www.dell-lee.com/imgs/vue3/banner.jpg"
+      src="../../assets/banner.jpg"
     />
   </div>
   <div class="icons">
     <div class="icons__item" v-for="item in iconsList" :key="item.id">
       <img
-        :src="`http://www.dell-lee.com/imgs/vue3/${item.img}`"
+        :src="item.img"
         class="icons__item__img"
       />
       <span class="icons__item__desc">{{item.name}}</span>
@@ -35,52 +35,52 @@ export default {
     const iconsList = [
       {
         id: 1,
-        img: '超市.png',
+        img: require("../../assets/超市.png"),
         name: '超市便利'
       },
       {
         id: 2,
-        img: '菜市场.png',
+        img: require("../../assets/菜市场.png"),
         name: '菜市场'
       },
       {
         id: 3,
-        img: '水果店.png',
+        img: require("../../assets/水果店.png"),
         name: '水果店'
       },
       {
         id: 4,
-        img: '鲜花.png',
+        img: require("../../assets/鲜花.png"),
         name: '鲜花绿植'
       },
       {
         id: 5,
-        img: '医药健康.png',
+        img: require("../../assets/医药健康.png"),
         name: '医药健康'
       },
       {
         id: 6,
-        img: '家居.png',
+        img: require("../../assets/家居.png"),
         name: '家居时尚'
       },
       {
         id: 7,
-        img: '蛋糕.png',
+        img: require("../../assets/蛋糕.png"),
         name: '烘培蛋糕'
       },
       {
         id: 8,
-        img: '签到.png',
+        img: require("../../assets/签到.png"),
         name: '签到'
       },
       {
         id: 9,
-        img: '大牌免运.png',
+        img: require("../../assets/大牌免运.png"),
         name: '大牌免运'
       },
       {
         id: 10,
-        img: '红包.png',
+        img: require("../../assets/红包.png"),
         name: '红包套餐'
       }
     ]

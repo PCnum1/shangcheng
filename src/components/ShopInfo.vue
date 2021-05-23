@@ -1,6 +1,6 @@
 <template>
   <div class="shop">
-      <img class="shop__img" :src="item.imgUrl" />
+      <img class="shop__img" src="../assets/near.png" />
       <div :class="{'shop__content':true, 'shop__content--border': hideBorder? false : true }">
         <div class="shop__content__title">{{ item.name }}</div>
         <div class="shop__content__tags">

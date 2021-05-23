@@ -3,7 +3,7 @@
     <div class="products__title">{{shopName}}</div>
     <div class="products__list">
       <div class="products__item" v-for="item in productList" :key="item._id">
-        <img class="products__item__img" :src="item.imgUrl">
+        <img class="products__item__img" src="../../assets/near.png">
         <div class="products__item__detail">
           <h4 class="products__item__title">{{item.name}}</h4>
           <div class="products__item__price">

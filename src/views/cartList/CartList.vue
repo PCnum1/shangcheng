@@ -24,7 +24,7 @@
                 v-if="product.count > 0"
                 class="products__item"
               >
-                <img class="products__item__img" :src="product.imgUrl" />
+                <img class="products__item__img" src="../../assets/near.png" />
                 <div class="products__item__detail">
                   <h4 class="products__item__title">{{product.name}}</h4>
                   <p class="products__item__price">

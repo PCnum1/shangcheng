@@ -13,7 +13,7 @@
       </div>
       <div v-for="item in productList" :key="item._id" class="product__item">
         <div @click="() => changeCartItemCheck(shopId, item._id )" class="product__item__checked iconfont" v-html="!item.checked ? '&#xe66c;': '&#xe652;'" />
-        <img class="product__item__img" :src="item.imgUrl">
+        <img class="product__item__img" src="../../assets/near.png">
         <div class="product__item__detail">
           <h4 class="product__item__title">{{item.name}}</h4>
           <p class="product__item__price">

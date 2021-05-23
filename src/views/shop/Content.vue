@@ -7,7 +7,7 @@
     </div>
     <div class="product">
       <div class="product__item" v-for="item in list" :key="item._id">
-        <img class="product__item__img" :src="item.imgUrl">
+        <img class="product__item__img" src="../../assets/near.png">
         <div class="product__item__detail">
           <h4 class="product__item__title">{{item.name}}</h4>
           <p class="product__item__sales">月售 {{item.sales}} 件</p>
