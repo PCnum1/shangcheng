@@ -13,7 +13,7 @@
       </div>
       <div v-for="item in productList" :key="item._id" class="product__item">
         <div @click="() => changeCartItemCheck(shopId, item._id )" class="product__item__checked iconfont" v-html="!item.checked ? '&#xe66c;': '&#xe652;'" />
-        <img class="product__item__img" src="../../assets/near.png">
+        <img class="product__item__img"   src="../../assets/near.png">
         <div class="product__item__detail">
           <h4 class="product__item__title">{{item.name}}</h4>
           <p class="product__item__price">
@@ -30,7 +30,7 @@
     </div>
     <div class="check">
       <div class="check__icon">
-        <img @click="handleCartShowChange" class="check__icon__img" src="http://www.dell-lee.com/imgs/vue3/basket.png">
+        <img @click="handleCartShowChange" class="check__icon__img" src="../../assets/basket.png">
         <div class="check__icon__tag">{{calculations.total}}</div>
       </div>
       <div class="check__info">
